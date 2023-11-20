@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 import java.util.Vector;
-import java.awt.BorderLayout; //we don't use these imports
+import java.awt.BorderLayout; 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
