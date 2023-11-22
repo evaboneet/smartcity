@@ -48,8 +48,13 @@ public class VentanaAdministrator implements ActionListener
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+        if(e.getSource()==butt1)
+		{
+			//close current window
+			frame.dispose();
+			//opens to another window 
+			VentanaUserInformation VentanaUserInformation = new VentanaUserInformation();
+		}
     }
     
 }
